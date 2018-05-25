@@ -1,4 +1,4 @@
-h1. Setup Rancher server
+# Setup Rancher server
 
 
 ENV
@@ -12,7 +12,7 @@ ENV
 - create VM for Load Balancer (rancherOS) 
 
 
-h3. Part1 Rancher VMs config 
+### Part1 Rancher VMs config 
 
 
 1.  create VMs  with rancherOS 
@@ -77,7 +77,7 @@ systemctl restart nfs-server
 </code></pre>
 
 
-h3. Part2 Rancher WEB-INTERFACE config 
+### Part2 Rancher WEB-INTERFACE config 
 
 <pre><code class="python">
 ```
@@ -94,7 +94,7 @@ Do not forget to add in rancher all the previous created VMs ( rancher-load-bala
 </code></pre>
 
 
-h3. Part3 Rancher WEB-INTERFACE config 
+### Part3 Rancher WEB-INTERFACE config 
 
 1. config just for rancher load-balancer 
 
