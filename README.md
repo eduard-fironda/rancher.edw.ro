@@ -23,9 +23,10 @@ ENV
 ```
 sudo ip addr add 10.0.30.61/24 dev eth0
 sudo route add default gw 10.0.30.250
-sudo ros install -c https://pastebin.com/raw/h3r4NCWP -d /dev/sda
+sudo ros install -c https://raw.githubusercontent.com/eduard-fironda/rancher.edw.ro/master/cloud-config-template.yml -d /dev/sda
 ###################################################################
-// if this method does not work properly use `wget https://pastebin.com/raw/h3r4NCWP`  then `sudo ros install -c h3r4NCWP -d /dev/sda` 
+// if this method does not work properly use `wget https://raw.githubusercontent.com/eduard-fironda/rancher.edw.ro/master/cloud-config-template.yml`  then `sudo ros install -c cloud-config-template.yml -d /dev/sda` 
+### ! EDIT TEMPLATE FOR EACH HOST SEPARATELY ! ###
 ####################################################################
 ros config set hostname <hostname>
 cd /var/lib/rancher/conf
