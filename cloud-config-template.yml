@@ -1,0 +1,20 @@
+rancher:
+  network:
+    interfaces:
+      eth0:
+        address: 10.0.30.59/24
+        gateway: 10.0.30.250
+        mtu: 1500
+        dhcp: false
+    dns:
+          search:
+            - edw.lan.
+            - edw.ro.
+            - eaudeweb.ro.
+          nameservers:
+            - 10.0.30.250
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDSl7JgvWvETJRtK9pN+KUyQBc8frA9kpGj2/FLfghg2i678rUtyZHSUUiybjuj1KaDwcClow7XJuGGD4Wb1n8CWIuh3B+QcOrKsrzwPltOF9naFpvkpV1P+sBfYPetgxBQlWegdar1g/b3aXyJ24vvn1BkwgUpHbJdpHUybKPiXCfXME23Tshidcmxit3V3IvW8anqowjPlTYKAOTCVQpwfGNNYJlHb8uiy+sS3udAB86SDuDJLbdjswe5T/r3nS05x4Lp6QShldmox5WWsRTLze14aJc15JweOOhmSsD2oBjQodlsUyvHoleRDINUVugmcV/cNiwYyv8cxH2sjV+n andra@naruto
+  - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAsJda0qjrNeewMIN/319dEcuJXJSUVN1QEE84MRMemGmkBTtsjI4GLnwp8Sj+k+VJhdFwfRN6jKrFP/ZV6abVkOMDMGppMsBCf0kQwKO+unrOKsqyj2ASh1seECWFMEFEZrjWtjlgIAOPCnEo+3KjJg+oHIV5pEGoeZ91ZixtP3r7B0hUNVVjiVFqKiGJtCodKZ1x9JYMlQ5wIP1k7t2iilAAM9EtEyJcMB1WKlprZRXgtyIH7AkuyRuoJJTsleEKGMFNo31GY/E54cng+6WTtGwHd+DKHHc2mLhPZiJko0TzvaEIHOsqRzNK8CQLUh25yZdjq7m3Hk2BlhskGWUW3w== anton@anton
+  - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAo4H4Gy0u5WQChIDKhFhqrgP5/lgK5ghgnx9mTT0yzJfs9CT+OyfQeiUIeCaTyFSVaXve0HV2UwvOVBPadTV3gppybmqPfcxXatn4LcU3uJayhzL4lznp4jkXU7KIvmPXaMYgwJquL57Ddb6RSKOvXKYPYcUSY9zgl1ZyF8nb5f4aJdEL/b2p277AwTOCZ1D2+LJkW/zR9ajlAEeh6uk1PDgOsowtJaj6OILPEXlk7QPuWy/89oHQo2eyh/XTLU+38mFbK87+2Rg+XV9Tfg5d7xiM+jbJC9KLZZFMc9sCLwXkX2nd9WFhLDOV9ngCtj3ka3dBis8+dZtZ+Izju9Lqcw== bogdan@bogdan
+  - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC+YSJn8ubtOXnJdwu+yU4w+CR4lLmKgl+OSRB54AFp3JSRigHhP1W87QwYot8YuJvIGrVNu9/uHf8DSjXcRRuj+T0IR8kMyrVKrbIQeahcSbLImJ8kGwtpEmgZZdW8/bPafvgP/yzKGN5R24D5NbFLbE5XnmxJ74AHic+IKo0UHvvzm8OYjxOMLNzUXDmf72tSbrVNnQZ543cjcbvrzJFU/LdZ86y3njvUz2I+Fa9VboTYkfLoVhlTpWbenIx5gW+ddw04yCxBiMoWftO43E1KEvj7aGxMmTamJ/hDum5SijjzV7+sp6X0EE5XE9BkQYjGHWzf5WqieIDq15p3HB6l my@ssh.com
